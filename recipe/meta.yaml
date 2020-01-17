@@ -27,7 +27,7 @@ requirements:
     - patsy >=0.5.1
     - autograd >=1.2
     - cvxpy >=1.0.24
-    - Deprecated >= 1.2.6
+    - Deprecated >=1.2.6
 
 test:
   imports:
