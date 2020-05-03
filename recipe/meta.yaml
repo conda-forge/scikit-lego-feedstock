@@ -1,18 +1,18 @@
 {% set name = "scikit-lego" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.2" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://github.com/koaning/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: ed6a75e1605a285db3c4fbf8aee591262f54bb91ef9cb0798ac2eb8bb5e2adc2
+  sha256: 71631b9e3f1ee7b107faa59200a974440414963453e983475a60fbff97ee7b77
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv "
+  script: '{{ PYTHON }} -m pip install . -vv '
 
 requirements:
   host:
@@ -34,12 +34,12 @@ test:
     - sklego
 
 about:
-  home: "https://github.com/koaning/scikit-lego"
-  license: "MIT"
-  license_family: "MIT"
-  license_file: "LICENSE"
-  summary: "missing blocks for sklearn pipelines"
-  doc_url: "https://scikit-lego.readthedocs.io"
+  home: https://github.com/koaning/scikit-lego
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: missing blocks for sklearn pipelines
+  doc_url: https://scikit-lego.readthedocs.io
 
 extra:
   recipe-maintainers:
