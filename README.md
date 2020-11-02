@@ -5,11 +5,11 @@ Home: https://github.com/koaning/scikit-lego
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-lego-feedstock/blob/master/LICENSE.txt)
 
 Summary: missing blocks for sklearn pipelines
 
-
+Documentation: https://scikit-lego.readthedocs.io
 
 Current build status
 ====================
