@@ -1,5 +1,5 @@
 {% set name = "scikit-lego" %}
-{% set version = "0.6.9" %}
+{% set version = "0.6.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/koaning/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 630b9d6217867f51a41dc85e433be92bfde16b0eda4822150a219493d3b7ba5a
+  sha256: 9ac2aa47a75aecba34e8f04b83ae82349dcf75c3d349caa9b0e5b70e0dd15b2e
 
 build:
   number: 0
