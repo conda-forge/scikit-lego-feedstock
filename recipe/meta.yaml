@@ -1,5 +1,6 @@
 {% set name = "scikit-lego" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
+
 
 package:
   name: {{ name|lower }}
