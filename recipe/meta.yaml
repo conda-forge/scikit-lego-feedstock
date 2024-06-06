@@ -43,7 +43,7 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: missing blocks for sklearn pipelines
-  doc_url: https://scikit-lego.readthedocs.io
+  doc_url: https://koaning.github.io/scikit-lego/
 
 extra:
   recipe-maintainers:
