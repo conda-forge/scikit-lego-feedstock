@@ -9,7 +9,7 @@ Package license: MIT
 
 Summary: missing blocks for sklearn pipelines
 
-Documentation: https://scikit-lego.readthedocs.io
+Documentation: https://koaning.github.io/scikit-lego/
 
 Current build status
 ====================
